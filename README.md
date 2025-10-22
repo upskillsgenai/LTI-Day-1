@@ -1,39 +1,36 @@
-# 🚀 Launch LAB: Create a Generative AI Chat App
+# 🚀 Developing Multimodal AI Applications for Image Classification using Azure OpenAI GPT-4o
 
 Launch the **Generative AI Chat App** lab from the LAB portal:  
 [https://cloudthat.learnondemand.net/](https://cloudthat.learnondemand.net/)
 
 ---
 
-## ✅ Step-by-Step Task List
+## 🎯 Complete Exercise: Deploy a Model in Azure AI Foundry
 
-### 🧩 **1. Launch and Prepare the Lab**
-- [ ] Launch the LAB from the [CloudThat portal](https://cloudthat.learnondemand.net/)
-- [ ] Access your lab environment for Generative AI Chat App development
+Deploy a model in an **Azure AI Foundry project** to obtain the following:
+- Model Key  
+- Endpoint  
+- Deployment Name  
 
----
-
-### 🧠 **2. Deploy Model in Azure AI Foundry**
-- [ ] Open your Azure AI Foundry project
-- [ ] Navigate to the **Overview** page
-- [ ] Locate **Endpoints and Keys** section
-- [ ] Ensure the **Azure AI Foundry** library is selected
-- [ ] View and copy the **Project Endpoint**
-- [ ] Go to **Model + Endpoint** in left pane to find **Deployment Name**
+### 🔍 How to Find Model Key, Endpoint, and Deployment Name
+1. In the **Azure AI Foundry** portal, open the **Overview** page of your project.  
+2. In the **Endpoints and Keys** section, make sure the **Azure AI Foundry** library is selected.  
+3. View the **Project Endpoint** — you’ll use it to connect your model in a client application.  
+4. To find the **Deployment Name**, go to **Model + Endpoint** in the left navigation pane.
 
 ---
 
-### ⚙️ **3. Explore the Azure AI Foundry UI**
-- [ ] Explore Azure AI Foundry interface
-- [ ] Understand where to manage models and keys
+## 🧭 Explore Azure AI Foundry UI
+
+Familiarize yourself with the Azure AI Foundry interface.
 
 ---
 
-### 💻 **4. Set Up Local Development Environment**
-- [ ] Open **VS Code**
-- [ ] Create a folder named `Day-1`
-- [ ] Open the terminal (`View -> Terminal`)
-- [ ] Run the following commands to create & activate virtual environment:
+## 💻 Set Up the Development Environment
+
+1. Open **VS Code**.  
+2. Create a folder named `Day-1`.  
+3. Open **Terminal** (`View -> Terminal`) and create a virtual environment using the steps below.
 
 ```
 # Create virtual environment
@@ -47,7 +44,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-- [ ] Install dependencies:
+4. Install dependencies:
 
 ```
 pip install openai
@@ -55,19 +52,17 @@ pip install openai
 
 ---
 
-### 📦 **5. Download, Configure, and Run the Code**
-- [ ] Download required files from GitHub and place them in the `Day-1` folder
-- [ ] Update your **key**, **endpoint**, and **deployment name** in the code
-- [ ] Run the image classification script:
+## 📂 Download and Run the Code
+
+1. Download project files from GitHub and place them in your `Day-1` folder.  
+2. Replace your **key**, **endpoint**, and **deployment name** in the configuration.  
+3. Run the image classification script:
 
 ```
 python image_classification.py images/car1.jpg
 ```
 
-- [ ] Test classification with different image files by changing the image name in the command
-
----
-
-🧩 **End of Lab** — You’ve successfully completed the setup and tested image classification using your Azure AI Foundry model.
+4. Change the image name in the above command to classify different images.
 ```
 
+Would you like me to format this as a **step-by-step instruction list with checkboxes** (✅ markdown tasks) for interactive GitHub documentation?
