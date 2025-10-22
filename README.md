@@ -65,4 +65,3 @@ python image_classification.py images/car1.jpg
 4. Change the image name in the above command to classify different images.
 ```
 
-Would you like me to format this as a **step-by-step instruction list with checkboxes** (✅ markdown tasks) for interactive GitHub documentation?
