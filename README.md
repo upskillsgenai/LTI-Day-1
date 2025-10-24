@@ -59,7 +59,7 @@ pip install openai
 3. Run the image classification script:
 
 ```
-python image_classification.py images/car1.jpg
+python image_classification.py images/car.jpg
 ```
 
 4. Change the image name in the above command to classify different images.
