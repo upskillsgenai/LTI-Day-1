@@ -24,7 +24,7 @@ Deploy a model in an **Azure AI Foundry project** to obtain the following:
 ## 💻 Set Up the Development Environment
 
 1. Open **VS Code**.
-2. Git Clone unsing Ctrl + Shift + P , then clone this GitHub Repo url
+2. Git Clone unsing `Ctrl + Shift + P` , then clone this GitHub Repo url
 ```
  https://github.com/upskillsgenai/LTI-Day-1.git
 ```
