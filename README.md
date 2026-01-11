@@ -24,10 +24,13 @@ Deploy a model in an **Azure AI Foundry project** to obtain the following:
 ## 💻 Set Up the Development Environment
 
 1. Open **VS Code**.
-2. Git Clone unsing Ctrl + Shift + P , then clone this GitHub Repo url ()
-3. Create a folder named `Day-1`to store GitHub clone  
-4. Open **Terminal** (`View -> Terminal`) .
-5. Install dependencies:
+2. Git Clone unsing Ctrl + Shift + P , then clone this GitHub Repo url
+```
+ https://github.com/upskillsgenai/LTI-Day-1.git
+```
+4. Create a folder named `Day-1`to store GitHub clone  
+5. Open **Terminal** (`View -> Terminal`) .
+6. Install dependencies:
 
 ```
 pip install openai
@@ -40,5 +43,3 @@ python image_classification.py images/unkonwn_1.jpg
 ```
 
 7. Change the image name in the above command to classify different images.
-```
-
