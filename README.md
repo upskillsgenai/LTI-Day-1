@@ -18,50 +18,27 @@ Deploy a model in an **Azure AI Foundry project** to obtain the following:
 3. View the **Project Endpoint** — you’ll use it to connect your model in a client application.  
 4. To find the **Deployment Name**, go to **Model + Endpoint** in the left navigation pane.
 
----
-
-## 🧭 Explore Azure AI Foundry UI
-
-Familiarize yourself with the Azure AI Foundry interface.
 
 ---
 
 ## 💻 Set Up the Development Environment
 
-1. Open **VS Code**.  
-2. Create a folder named `Day-1`.  
-3. Open **Terminal** (`View -> Terminal`) and create a virtual environment using the steps below.
-
-```
-# Create virtual environment
-python -m venv .venv
-
-# Activate it
-# Windows PowerShell
-.venv\Scripts\Activate
-
-# macOS / Linux
-source .venv/bin/activate
-```
-
-4. Install dependencies:
+1. Open **VS Code**.
+2. Git Clone unsing Ctrl + Shift + P , then clone this GitHub Repo url ()
+3. Create a folder named `Day-1`to store GitHub clone  
+4. Open **Terminal** (`View -> Terminal`) .
+5. Install dependencies:
 
 ```
 pip install openai
 ```
-
----
-
-## 📂 Download and Run the Code
-
-1. Download project files from GitHub and place them in your `Day-1` folder.  
-2. Replace your **key**, **endpoint**, and **deployment name** in the configuration.  
-3. Run the image classification script:
+ 
+6. Run the image classification script:
 
 ```
-python image_classification.py images/car.jpg
+python image_classification.py images/unkonwn_1.jpg
 ```
 
-4. Change the image name in the above command to classify different images.
+7. Change the image name in the above command to classify different images.
 ```
 
